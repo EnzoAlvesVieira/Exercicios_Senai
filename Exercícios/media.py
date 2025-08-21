@@ -1,0 +1,10 @@
+print('|------------------------------')
+print('SISTEMA DE PROVAS')
+print('|------------------------------')
+nome = input(f'Nome do aluno?')
+nota1 = int(input(f'Nota da Primeira Prova?'))
+nota2 = int(input(f'Nota da Segunda Prova?'))
+nota3 = int(input(f'Nota da terceira Prova?'))
+print('|------------------------------')
+media = (nota1 + nota2 + nota3)/3
+print(f'Aluno foi Aprovado {media >= 5}')
